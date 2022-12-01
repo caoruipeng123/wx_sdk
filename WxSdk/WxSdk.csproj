@@ -4,6 +4,16 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>微信开发sdk</Title>
+    <PackageProjectUrl>https://github.com/caoruipeng123/wx_sdk</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/caoruipeng123/wx_sdk</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Product>$(AssemblyName)</Product>
+    <Copyright>详细说明</Copyright>
+    <Description>UI说明</Description>
+    <PackageReleaseNotes>首次发行说明</PackageReleaseNotes>
+    <PackageId>$(AssemblyName)Client</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
